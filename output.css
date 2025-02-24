@@ -3001,4 +3001,7 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-
+@property --tw-contain-style {
+  syntax: "*";
+  inherits: false;
+}
