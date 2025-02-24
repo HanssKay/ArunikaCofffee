@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme{
+    --color-one : #c98e39;
+    --color-two : #B9976E;
+    --color-tree : #D9D9D9;
+    --color-four : #381818;
+    --font-one : 'montserrat',sans-serif;
+}
+
+.bi-cart-fill{
+    color: var(--color-one);
+    font-size: 25px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+
+  .bi-cart-fill:hover{
+    color: rgb(240, 203, 39) ;
+  }
+
+.bi-instagram{
+  color: var(--color-one);
+    font-size: 30px;
+    margin-left: 0px;
+    cursor: pointer;
+    transition:0.5s ease;
+}
+
+.bi-instagram:hover{
+  transform: scale(1.2);
+}
+
+.sos {
+  color: var(--color-one);
+    font-size: 25px;
+    margin-left: 0px;
+    cursor: pointer;
+    transition:0.5s ease;
+}
+
+
+.sos:hover{
+  transform: scale(1.2);
+}
+
+#hamburger.active > div.line1  {
+    transform: rotate(50deg);
+}
+.hamburger{
+    transform: rotate(-40deg) ;
+}
+#hamburger.active > div:nth-child(2){
+   opacity: 0;
+}
+
+/* Media */
+
+
+@media (max-width :768px){
+  .kop{
+    margin-right: 0px;
+  }
+}
+
+@media (min-width :400px){
+  .bi-cart-fill{
+      font-size: 20px;
+      margin-right: 20px;
+      margin-top: -5px;
+  }
+  .bi-tiktok{
+    font-size: 15px;
+  }
+  .bi-instagram{
+    font-size: 15px;
+
+  }
+}
+@media (min-width :768px){
+  .bi-cart-fill{
+      font-size: 20px;
+      margin-top: -5px;
+      margin-right: 18px;
+  }
+  .bi-tiktok{
+    font-size: 20px;
+  }
+  .bi-instagram{
+    font-size: 20px;
+    
+  }
+}
+
+@media (min-width :1024px){
+  .bi-cart-fill{
+    font-size: 25px;
+  }
+  .bi-tiktok{
+    font-size: 25px;
+  }
+  .bi-instagram{
+    font-size: 25px;
+    
+  }
+}
+
+/* SlideShow */
+/* .container{
+  position: relative;
+  background-color: var(--color-one);
+} */

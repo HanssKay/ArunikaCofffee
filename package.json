@@ -1,0 +1,19 @@
+{
+  "name": "arunika-coffee",
+  "version": "1.0.0",
+  "description": "arunika Coffee web",
+  "license": "ISC",
+  "author": "HansKay",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "@tailwindcss -i ./main.css -o ./output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "@tailwindcss/postcss": "^4.0.6",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
+  }
+}
