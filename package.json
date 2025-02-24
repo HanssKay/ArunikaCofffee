@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "@tailwindcss -i ./main.css -o ./output.css --watch",
+    "dev": "@tailwindcss -i ./src/main.css -o ./src/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
