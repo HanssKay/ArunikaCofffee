@@ -715,14 +715,29 @@
   .ms-2 {
     margin-inline-start: calc(var(--spacing) * 2);
   }
+  .ms-3 {
+    margin-inline-start: calc(var(--spacing) * 3);
+  }
   .ms-4 {
     margin-inline-start: calc(var(--spacing) * 4);
   }
   .ms-5 {
     margin-inline-start: calc(var(--spacing) * 5);
   }
+  .me-3 {
+    margin-inline-end: calc(var(--spacing) * 3);
+  }
   .me-4 {
     margin-inline-end: calc(var(--spacing) * 4);
+  }
+  .me-10 {
+    margin-inline-end: calc(var(--spacing) * 10);
+  }
+  .me-16 {
+    margin-inline-end: calc(var(--spacing) * 16);
+  }
+  .me-36 {
+    margin-inline-end: calc(var(--spacing) * 36);
   }
   .me-\[-60px\] {
     margin-inline-end: -60px;
@@ -750,6 +765,9 @@
   }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -868,6 +886,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -883,8 +904,38 @@
   .w-32 {
     width: calc(var(--spacing) * 32);
   }
+  .w-\[00px\] {
+    width: 00px;
+  }
+  .w-\[0px\] {
+    width: 0px;
+  }
   .w-\[200px\] {
     width: 200px;
+  }
+  .w-\[20px\] {
+    width: 20px;
+  }
+  .w-\[300px\] {
+    width: 300px;
+  }
+  .w-\[330px\] {
+    width: 330px;
+  }
+  .w-\[350\] {
+    width: 350;
+  }
+  .w-\[350px\] {
+    width: 350px;
+  }
+  .w-\[380px\] {
+    width: 380px;
+  }
+  .w-\[400px\] {
+    width: 400px;
+  }
+  .w-\[480px\] {
+    width: 480px;
   }
   .w-auto {
     width: auto;
@@ -894,6 +945,12 @@
   }
   .w-screen {
     width: 100vw;
+  }
+  .w-sm {
+    width: var(--container-sm);
+  }
+  .w-xs {
+    width: var(--container-xs);
   }
   .max-w-none {
     max-width: none;
@@ -1312,6 +1369,9 @@
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
+  }
+  .gap-15 {
+    gap: calc(var(--spacing) * 15);
   }
   .space-y-reverse {
     :where(& > :not(:last-child)) {
@@ -1806,6 +1866,10 @@
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
   }
   .text-xl {
     font-size: var(--text-xl);
