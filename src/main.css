@@ -43,19 +43,23 @@
 .sos:hover{
   transform: scale(1.2);
 }
+/* 
+#hamburger.active > div .line:nth-child(1)  {
+    transform: rotate(65deg);
+    
+}
 
-#hamburger.active > div.line1  {
-    transform: rotate(50deg);
+#hamburger.active > div .line:nth-child(2){
+  opacity: 0;
 }
-.hamburger{
-    transform: rotate(-40deg) ;
-}
-#hamburger.active > div:nth-child(2){
-   opacity: 0;
-}
+
+#hamburger.active > div .line:nth-child(3)  {
+  transform: rotate(-45deg);
+  
+} */
+
 
 /* Media */
-
 
 @media (max-width :768px){
   .kop{
@@ -66,7 +70,7 @@
 @media (min-width :400px){
   .bi-cart-fill{
       font-size: 20px;
-      margin-right: 20px;
+      margin-right: 10px;
       margin-top: -5px;
   }
 
@@ -106,8 +110,3 @@
   }
 }
 
-/* SlideShow */
-/* .container{
-  position: relative;
-  background-color: var(--color-one);
-} */
