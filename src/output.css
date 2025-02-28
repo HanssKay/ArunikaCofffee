@@ -2774,12 +2774,15 @@
     margin-right: 0px;
   }
 }
-@media (min-width :400px) {
+@media (min-width :300px) {
   .bi-cart-fill {
     font-size: 23px;
     margin-right: 10px;
   }
   .bi-tiktok {
+    font-size: 15px;
+  }
+  .bi-instagram {
     font-size: 15px;
   }
 }
