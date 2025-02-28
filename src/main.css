@@ -36,6 +36,7 @@
     margin-left: 0px;
     cursor: pointer;
     transition:0.5s ease;
+    /* font-size: 4px; */
 }
 
 
@@ -76,10 +77,10 @@
   .bi-tiktok{
     font-size: 15px;
   }
-  .bi-instagram{
+  /* .bi-instagram{
     font-size: 15px;
 
-  }
+  } */
 }
 @media (min-width :768px){
   .bi-cart-fill{
