@@ -14,12 +14,13 @@
 <body class="bg-two overflow-x-hidden">
     <header class="bg-four flex fixed w-full z-50">
         <div class="container ">
-            <nav class="md:flex md:justify-between md:items-center">
+            <nav class="md:flex md:justify-between gap-3 md:items-center">
                 <div class="flex mt-3 lg:ms-16 md:ms-5 ms-3  mb-3 p-1 ">
                     <img class="lg:h-18 h-12" src="Asset/Arun.png" alt="">
                     <h1 class="font-one content-center md:ms-5 ms-2 text-one lg:text-lg md:text-sm text-xs font-bold">ARUNIKA COFFEE</h1>
                 </div>
-                <ul class="gap-5 md:flex md:items-center text-center absolute right-10 bg-four w-[90px] z-[-1] md:z-auto   ">
+                <ul class="gap-5 md:flex lg:me-15 md:me-3 md:items-center absolute right-10 md:w-auto text-center bg-four w-[99px] z-[-1] md:z-auto 
+                transition-all ease-in-out duration-200 md:opacity-100 opacity-0">
                     <li class="group">
                         <a class="text-one lg:text-lg md:text-sm text-xs font-one font-bold group-hover:text-yellow-200" href="#Home">Home</a>
                     </li>
@@ -34,8 +35,18 @@
                     </li>
                     <li class="group">
                         <a class="text-one lg:text-lg md:text-sm text-xs font-one font-bold group-hover:text-yellow-200" href="#Location">Location</a>
-                    </li class="group">
-                </ul>   
+                    </li>
+                </ul> 
+                <div class="absolute lg:right-9 md:right-1 right-20 md:mb-1.5">
+                    <i class="bi bi-cart-fill"></i>
+                </div> 
+                <button id="hamburger" type="button" class="md:hidden me-4 right-1 bottom-10 absolute ">
+                    <div id="hamburger-icon" class=" flex flex-col gap-1 ">
+                        <div class= "w-8 rounded-lg h-[3px] bg-one origin-bottom-left transition-transform duration-500"></div>
+                        <div class= "w-3 rounded-lg h-[3px] bg-one transition-opacity duration-500"></div>
+                        <div class= "w-8 rounded-lg h-[3px] bg-one transition-transform duration-500"></div>
+                    </div>
+                </button>  
             </nav>
         </div>
     </header>

@@ -11,7 +11,6 @@
 .bi-cart-fill{
     color: var(--color-one);
     font-size: 25px;
-    margin-left: 0px;
     cursor: pointer;
   }
 
@@ -69,9 +68,9 @@
 
 @media (min-width :400px){
   .bi-cart-fill{
-      font-size: 20px;
+      font-size: 23px;
       margin-right: 10px;
-      margin-top: -5px;
+      margin-top: 335px;
   }
 
   .bi-tiktok{
