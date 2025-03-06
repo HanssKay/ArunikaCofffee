@@ -588,6 +588,9 @@
   .end-2 {
     inset-inline-end: calc(var(--spacing) * 2);
   }
+  .top-5 {
+    top: calc(var(--spacing) * 5);
+  }
   .top-5\.5 {
     top: calc(var(--spacing) * 5.5);
   }
@@ -759,6 +762,9 @@
   .me-\[-65px\] {
     margin-inline-end: -65px;
   }
+  .mt-0 {
+    margin-top: calc(var(--spacing) * 0);
+  }
   .mt-0\.5 {
     margin-top: calc(var(--spacing) * 0.5);
   }
@@ -794,6 +800,9 @@
   }
   .mt-\[-40px\] {
     margin-top: -40px;
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
@@ -924,8 +933,14 @@
   .h-38 {
     height: calc(var(--spacing) * 38);
   }
-  .h-50 {
-    height: calc(var(--spacing) * 50);
+  .h-40 {
+    height: calc(var(--spacing) * 40);
+  }
+  .h-42 {
+    height: calc(var(--spacing) * 42);
+  }
+  .h-45 {
+    height: calc(var(--spacing) * 45);
   }
   .h-\[385px\] {
     height: 385px;
@@ -944,6 +959,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1385,9 +1403,6 @@
   }
   .justify-items-stretch {
     justify-items: stretch;
-  }
-  .gap-1 {
-    gap: calc(var(--spacing) * 1);
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -1865,6 +1880,9 @@
   .px-1 {
     padding-inline: calc(var(--spacing) * 1);
   }
+  .px-1\.5 {
+    padding-inline: calc(var(--spacing) * 1.5);
+  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -1873,6 +1891,9 @@
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
+  }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
   }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
@@ -1972,8 +1993,14 @@
   .text-\[8px\] {
     font-size: 8px;
   }
+  .text-\[9px\] {
+    font-size: 9px;
+  }
   .text-\[10px\] {
     font-size: 10px;
+  }
+  .text-\[11px\] {
+    font-size: 11px;
   }
   .text-\[13px\] {
     font-size: 13px;
@@ -2594,6 +2621,16 @@
       left: calc(var(--spacing) * 98);
     }
   }
+  .md\:left-150 {
+    @media (width >= 48rem) {
+      left: calc(var(--spacing) * 150);
+    }
+  }
+  .md\:left-153 {
+    @media (width >= 48rem) {
+      left: calc(var(--spacing) * 153);
+    }
+  }
   .md\:left-155 {
     @media (width >= 48rem) {
       left: calc(var(--spacing) * 155);
@@ -2948,6 +2985,11 @@
   .lg\:left-173 {
     @media (width >= 64rem) {
       left: calc(var(--spacing) * 173);
+    }
+  }
+  .lg\:left-245 {
+    @media (width >= 64rem) {
+      left: calc(var(--spacing) * 245);
     }
   }
   .lg\:left-248 {
